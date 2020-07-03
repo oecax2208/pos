@@ -24,15 +24,18 @@ Local install
 
 First of all, if you're seeing the message **'system folder missing'** after launching your browser, then that means you have cloned the repository and have not built the project properly.
 
-1. Dowload the latest [stable release](https://github.com/opensourcepos/opensourcepos/releases) from github or [unstable build](https://bintray.com/jekkos/opensourcepos/opensourcepos/view/files?sort=updated&order=asc#files) from bintray. A regular repository clone will not work unless you are brave enough to build the whole project!
+1. Dowload A regular repository clone will not work unless you are brave enough to build the whole project!
 2. Create/locate a new mysql database to install open source point of sale into
 3. Execute the file database/database.sql to create the tables needed
 4. unzip and upload Open Source Point of Sale files to web server
 5. Modify application/config/database.php and modify credentials if needed to connect to your database
 6. Modify application/config/config.php encryption key with your own
 7. Go to your point of sale install public dir via the browser
-8. LOGIN using
+8. LOGIN for Administrator
   * username: admin 
-  * password: pointofsale
+  * password: admin
+  Login For Casier
+  * username: yoga
+  * password: yoga 
 9. Enjoy
-10. Oops an issue? Please make sure you read the FAQ, wiki page and you checked open and closed issue on GitHub. PHP display_errors is disabled by default. Create an application/config/.env file from the .env.example to enable it in a development environment. 
+10. Oops an issue? you can ask me as issue.
